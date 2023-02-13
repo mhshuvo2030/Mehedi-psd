@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Palatino Linotype';
+    src: url('PalatinoLinotype-Bold.eot');
+    src: url('PalatinoLinotype-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PalatinoLinotype-Bold.woff2') format('woff2'),
+        url('PalatinoLinotype-Bold.woff') format('woff'),
+        url('PalatinoLinotype-Bold.ttf') format('truetype'),
+        url('PalatinoLinotype-Bold.svg#PalatinoLinotype-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
