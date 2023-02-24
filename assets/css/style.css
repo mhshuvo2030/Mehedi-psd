@@ -1,47 +1,9 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-SemiBold.eot');
-    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
-        url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
-        url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.eot');
-    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-        url('../fonts/Montserrat-Regular.woff') format('woff'),
-        url('../fonts/Montserrat-Regular.ttf') format('truetype'),
-        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Palatino Linotype';
-    src: url('PalatinoLinotype-Bold.eot');
-    src: url('PalatinoLinotype-Bold.eot?#iefix') format('embedded-opentype'),
-        url('PalatinoLinotype-Bold.woff2') format('woff2'),
-        url('PalatinoLinotype-Bold.woff') format('woff'),
-        url('PalatinoLinotype-Bold.ttf') format('truetype'),
-        url('PalatinoLinotype-Bold.svg#PalatinoLinotype-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 :root{
     --primary-color:#f42267;
     --section-color:#4b2d7f;
 }
 .bg-gradian{
-    background-image: -moz-linear-gradient( 49deg, rgb(219,219,219) 0%, rgb(41,10,89) 0%, rgb(162,26,240) 0%, rgb(255,0,114) 100%);
-    background-image: -webkit-linear-gradient( 49deg, rgb(219,219,219) 0%, rgb(41,10,89) 0%, rgb(162,26,240) 0%, rgb(255,0,114) 100%);
-    background-image: -ms-linear-gradient( 49deg, rgb(219,219,219) 0%, rgb(41,10,89) 0%, rgb(162,26,240) 0%, rgb(255,0,114) 100%);
+    background-color: rgb(244, 34, 103);
 }
 .mybtn{
     background-color: #f42267;
@@ -51,6 +13,9 @@
     border-radius: 50px;
     padding: 7px 25px;
 
+}
+.gra{
+    color: #f42267;
 }
 .container-two{
     width: 1170px;
@@ -83,6 +48,8 @@ p{
 /*-------------------------------- header-start --------------------------*/
 .header-section-area{
     background-image: url(../img/Creative-Agency-Web-Design-Free-PSD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .primary-menu ul li a{
     font-family: 'Montserrat';
@@ -111,4 +78,21 @@ p{
 }
 .logo-area{
     background-color: var(--section-color);
+}
+.slaider-area{
+    background-image: url(../img/slider-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.need-help-area{
+    background-image: url(../img/orange-section.png);
+}
+.social-icon-area{
+    background-color: var(--section-color);
+}
+.footer-top-area{
+    background-image: url(../img/tranfarent-img.png);
+}
+.footer-area{
+    background-color: #f6f6f6;
 }
